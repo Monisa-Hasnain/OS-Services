@@ -1,0 +1,6 @@
+import os
+import sys
+program = "python"
+arguments = ["Newfile.py"]
+print(os.execvp(program, (program,) + tuple(arguments)))
+print("Process Switched")
